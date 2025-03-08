@@ -17,7 +17,7 @@ public class Main {
         
         Conexao conexao = new ConexaoMysql();
         
-        Categoria categoria = new Categoria(null, "Simples", "Insercao no netbeans");
+        Categoria categoria = new Categoria(null, "Simples", "Suite Simples");
         
         String inserirSQL = "INSERT INTO categoria(nome, descricao) VALUES(?, ?)";
         
